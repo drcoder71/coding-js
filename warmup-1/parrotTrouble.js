@@ -1,0 +1,1 @@
+export const parrotTrouble = () => talking && (hour < 7 || hour > 20)

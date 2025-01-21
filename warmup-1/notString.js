@@ -1,0 +1,1 @@
+export const notString = (str) => str.startsWith('not') ? str : `not ${str}`;

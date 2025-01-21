@@ -1,0 +1,1 @@
+export const sumDouble = (a, b) => a !== b ? a + b : (a + b) * 2;
