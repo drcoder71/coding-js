@@ -1,17 +1,27 @@
 import { backAround } from "./backAround.js";
+import { close10 } from "./close10.js";
 import { delDel } from "./delDel.js";
 import { diff21 } from "./diff21.js";
+import { endUp } from "./endUp.js";
+import { everyNth } from "./everyNth.js";
 import { front22 } from "./front22.js";
 import { front3 } from "./front3.js";
 import { frontBack } from "./frontBack.js";
 import { hasTeen } from "./hasTeen.js";
+import { in3050 } from "./in3050.js";
+import { intMax } from "./intMax.js";
+import { lastDigit } from "./lastDigit.js";
 import { loneTeen } from "./loneTeen.js";
 import { makes10 } from "./makes10.js";
+import { max1020 } from "./max1020.js";
 import { missingChar } from "./missingChar.js";
+import { mixStart } from "./mixStart.js";
 import { monkeyTrouble } from "./monkeyTrouble.js";
 import { or35 } from "./or35.js";
 import { posNeg } from "./posNeg.js";
 import { sleepIn } from "./sleepIn.js";
+import { startOz } from "./startOz.js";
+import { stringE } from "./stringE.js";
 import { sumDouble } from "./subDouble.js";
 
 export const Warmup1 = {
@@ -35,7 +45,15 @@ export const Warmup1 = {
     in1020: (num1, num2) => in1020(num1, num2),
     hasTeen: (a, b, c) => hasTeen(a, b, c),
     loneTeen: (a, b) => loneTeen(a, b),
-    delDel: (str) => delDel(str)
+    delDel: (str) => delDel(str),
+    mixStart: (str) => mixStart(str),
+    startOz: (str) => startOz(str),
+    intMax: (a, b, c) => intMax(a, b, c),
+    close10: (a, b) => close10(a, b),
+    in3050: (a, b) => in3050(a, b),
+    max1020: (a, b) => max1020(a, b),
+    stringE: (str) => stringE(str),
+    lastDigit: (a, b) => lastDigit(a, b),
+    endUp: (str) => endUp(str),
+    everyNth: (str, n) => everyNth(str, n)
 }
-
-console.log(Warmup1.delDel('hdelello'));
